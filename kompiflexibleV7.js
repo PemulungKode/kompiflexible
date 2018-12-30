@@ -15,7 +15,7 @@ function showhidemenu(){var e=document.getElementById("drop_menu");"block"!==e.s
 
 var disqus_url=disqus_blogger_current_url;!function(){"use strict";var e=function(){var e=document.getElementById("comments");return e||(e=document.getElementById("disqus-blogger-comment-block")),e},t=e();if(t){var d=document.createElement("div");d.id="disqus_thread",t.innerHTML="",t.appendChild(d),t.style.display="block";var n=document.createElement("script");n.async=!0,n.src="https://cdn.staticaly.com/gh/PemulungKode/Disqus/d0d6fe80/embed.js",(document.getElementsByTagName("head")[0]||document.body).appendChild(n)}}();
 
-function toggleVisibility(i){visibleDivId=visibleDivId===i?null:i,hideNonVisibleDivs()}function hideNonVisibleDivs(){var i,l,e;for(i=0;i<divs.length;i++)l=divs[i],e=document.getElementById(l),visibleDivId===l?e.style.display="block":e.style.display="none"}var divs=["disqus-box","blogger-box","facebook-box"],visibleDivId=null;
+function toggleVisibility(i){visibleDivId=visibleDivId===i?null:i,hideNonVisibleDivs()}function hideNonVisibleDivs(){var i,l,e;for(i=0;i<divs.length;i++)l=divs[i],e=document.getElementById(l),visibleDivId===l?e.style.display="block":e.style.display="none"}var divs=["disqus-box"],visibleDivId=null;
 
 $(".commentbtn").click(function (e) {
 $(this).addClass("btncurrent").siblings().removeClass("btncurrent");
